@@ -1,10 +1,22 @@
-# gatsby-starter-hello-world
-Starter with the bare essentials needed for a [Gatsby](https://www.gatsbyjs.org/) site
+# Polymath Goodies client
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
+A newsletter for folks curious about subjects such as Science, Art, Literature, History, Programming and other cool stuff.
+
+Subscribe to the newsletter- [Get your learning goodies here](https://tinyletter.com/abiduzz420)
+
+# Running in Development
+
+1. Clone the repository:
 ```
-gatsby new gatsby-site https://github.com/gatsbyjs/gatsby-starter-hello-world
+git clone https://github.com/polymath-goodies/polymath-goodies-client.git
 ```
 
-## Running in development
-`gatsby develop`
+2. In the root directory:
+```
+npm install
+```
+
+3. Start the dev server:
+```
+gatsby develop
+```
