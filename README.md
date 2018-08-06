@@ -4,7 +4,7 @@ A newsletter for folks curious about subjects such as Science, Art, Literature, 
 
 Subscribe to the newsletter- [Get your learning goodies here](https://tinyletter.com/abiduzz420)
 
-# Running in Development
+### Running in Development
 
 1. Clone the repository:
 ```
