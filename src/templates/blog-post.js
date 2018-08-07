@@ -12,7 +12,7 @@ export default ({ data }) => {
         <Helmet title={post.frontmatter.title} />
         <Header />
         <Post>
-        <h3>{post.frontmatter.title}</h3>
+        <h2>{post.frontmatter.title}</h2>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <SubscriptionBox />
         </Post>
