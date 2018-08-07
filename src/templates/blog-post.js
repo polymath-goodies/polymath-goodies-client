@@ -2,6 +2,7 @@ import React from "react";
 import Helmet from "react-helmet";
 
 import Post from "../components/Post";
+import SubscriptionBox from "../templates/SubscriptionBox";
 import Header from "../components/Header";
 
 export default ({ data }) => {
@@ -13,6 +14,7 @@ export default ({ data }) => {
         <Post>
         <h3>{post.frontmatter.title}</h3>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <SubscriptionBox />
         </Post>
     </div>
   );
