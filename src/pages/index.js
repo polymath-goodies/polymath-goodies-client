@@ -5,7 +5,10 @@ import Helmet from "react-helmet";
 import Post from "../components/Post";
 import HeaderLink from "../templates/HeaderLink";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import SubscriptionBox from "../templates/SubscriptionBox";
+
+import {ROOT_URL} from "../utils/constants";
 
 export default ({data}) => (
     <div>
@@ -26,6 +29,7 @@ export default ({data}) => (
                     ))
                 }
         </Post>
+        <Footer title={data.site.siteMetadata.title} url={ROOT_URL} />
     </div>
 );
 

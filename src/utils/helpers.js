@@ -1,0 +1,1 @@
+export const generateUrl = (title) => "/".concat(title.toLowerCase().replace(":", "").replace(",", "").split(" ").join("-"));

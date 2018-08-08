@@ -1,13 +1,12 @@
 ---
-title: "Leonarda da Vinci: the Renaissance Polymath"
-date: "2018-08-12"
+title: "Again the Leonarda da Vinci: the Renaissance Polymath"
+date: "2018-06-18"
 tags: art, travel
-post: 1
+post: 4
 ---
 
 > Leonardo da Vinci is truly an iconic representation of the Renaissance. A curious,    imaginative and eccentric person who not only marveled at Painting but also contributed significantly to areas such as Anatomy, Mathematics, Geology and Engineering.
 
-:tada:
 
 **Comprehensive Resources:**
 1. 📖 [Biography of Leonardo da Vinci by Walter Isaacson](https://www.goodreads.com/book/show/34684622-leonardo-da-vinci)
