@@ -24,10 +24,10 @@ export default () => {
         style={{ marginBottom: "0" }}
       >
         <label>
-          <h4 style={{ marginBottom: "0" }}>Get new goodies sent to you</h4>
+          <h4 style={{ marginBottom: "0" }}>Get new goodies in your inbox</h4>
         </label>
         <p style={{ padding: "16px 0", marginBottom: "0" }}>
-          Subscribe to my learning journey as we explore Art, Science, History and other interesting stuff. Published several times a month.
+          Subscribe to my learning journey as we explore Art, Science, History, Literature and other interesting stuff. Published several times a month.
         </p>
         <input
             type="email"

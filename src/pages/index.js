@@ -12,7 +12,32 @@ import {ROOT_URL} from "../utils/constants";
 
 export default ({data}) => (
     <div>
-        <Helmet title="Polymath Goodies" />
+        <Helmet
+            title="Polymath Goodies"
+            meta={[
+                {
+                    name: 'description',
+                    content: 'Newsletter for folks curious about subjects such as Science, Art, Literature, History and other cool stuff.',
+                },
+                {
+                    name: 'keywords',
+                    content: 'polymath, polymath goodies, Abid Uzair, goodies, abiduzz420, science art, art history', 
+                },
+                {
+                    name: 'og:title',
+                    content: 'Polymath Goodies',
+                }, {
+                    name: 'og:description',
+                    content: 'I send goodies to learn about art, science, history, literature.',
+                }, {
+                    name: 'og:url',
+                    content: 'https://polymathgoodies.xyz',
+                }, {
+                    name: 'og:image',
+                    content: 'https://i.imgur.com/GW0TyxN.jpg',
+                },
+            ]} 
+        />
         <Header/>
         <Post>
             <SubscriptionBox />

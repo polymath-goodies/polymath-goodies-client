@@ -16,8 +16,8 @@ export default () => {
     >
       <HeaderLink><h1>Polymath Goodies</h1></HeaderLink>
       <span>
-        <p>A newsletter for folks curious about subjects such as <Highlight>Science, Art, Literature, History, Programming</Highlight> and other cool stuff.</p>
-        <span>Made with 💖 by <a href = "https://twitter.com/abiduzz420"> Abid Uzair </a></span>
+        <p>A newsletter for folks curious about subjects such as <Highlight>Art, Science, History, Literature</Highlight> and other cool stuff.</p>
+        <span>Founded and Curated by <a href = "https://twitter.com/abiduzz420"> Abid Uzair </a></span>
       </span>
     </div>
   );

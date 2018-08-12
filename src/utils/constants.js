@@ -1,1 +1,1 @@
-export const ROOT_URL="https://polymath-leonardo.surge.sh";
+export const ROOT_URL = "https://polymathgoodies.xyz";

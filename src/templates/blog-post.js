@@ -8,13 +8,37 @@ import Footer from "../components/Footer";
 
 import {ROOT_URL} from "../utils/constants";
 import {generateUrl} from "../utils/helpers";
+import { strictEqual } from "assert";
 
 export default ({ data }) => {
   const post = data.markdownRemark;
   const slug = generateUrl(post.frontmatter.title);
   return (
     <div>
-        <Helmet title={post.frontmatter.title} />
+        <Helmet 
+          title={post.frontmatter.title}
+          meta={[
+            {
+              name: 'description',
+              content: `${post.excerpt}`,
+            }, {
+              name: 'keywords',
+              content: `${post.frontmatter.tags}`,
+            }, {
+              name: 'og:title',
+              content: `${post.frontmatter.title}`,
+            }, {
+              name: 'og:description',
+              content: `${post.excerpt}`,
+            }, {
+              name: 'og:url',
+              content: `${ROOT_URL}${slug}`,
+            }, {
+              name: 'og:image',
+              content: `${post.frontmatter.thumbnail}`,
+            },
+          ]}
+        />
         <Header />
         <Post>
         <h2>{post.frontmatter.title}</h2>
@@ -34,8 +58,11 @@ export const query = graphql`
         slug
       }
       frontmatter {
-        title
+        title,
+        tags,
+        thumbnail,
       }
+      excerpt
     }
   }
 `;
