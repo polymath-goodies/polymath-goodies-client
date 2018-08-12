@@ -20,3 +20,7 @@ npm install
 ```
 gatsby develop
 ```
+
+### Credits
+
+Hugely inspired by design of [Robert Heaton personal website](https://robertheaton.com/) so much so that, they look one and the same. I like the simplicity. Another is [iOS Goodies](http://ios-goodies.com) for curating best learning resources. The name "goodies" in both is a pure coincidence.
